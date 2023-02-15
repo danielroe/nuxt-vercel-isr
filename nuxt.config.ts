@@ -1,7 +1,7 @@
 export default defineNuxtConfig({
   routeRules: {
     // revalidated every 60 seconds, in the background
-    '/**': { swr: true },
+    '/**': { swr: 60 },
     // this page will be always fresh
     '/dynamic': { swr: false, cache: false },
     // this page will be generated on demand and then cached permanently
