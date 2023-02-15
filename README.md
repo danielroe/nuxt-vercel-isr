@@ -15,7 +15,7 @@ The only config required:
 export default defineNuxtConfig({
   routeRules: {
     // all routes (by default) will be revalidated every 60 seconds, in the background
-    '/**': { swr: true },
+    '/**': { swr: 60 },
     // this page will be generated on demand and then cached permanently
     '/static': { static: true },
     // this page is generated at build time and cached permanently
