@@ -2,6 +2,7 @@ export default defineNuxtConfig({
   routeRules: {
     '/**': { swr: true },
     '/dynamic': { swr: false, cache: false },  
+    '/static': { static: true },  
   },
   runtimeConfig: {
     nitro: { envPrefix: 'VERCEL_' },
