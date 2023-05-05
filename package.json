@@ -6,6 +6,6 @@
   },
   "devDependencies": {
     "@types/node": "^18.13.0",
-    "nuxt": "^3.2.0"
+    "nuxt": "^3.4.3"
   }
 }
