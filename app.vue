@@ -79,7 +79,7 @@ onMounted(() => {
       </p>
       <NuxtLink
         target="_blank"
-        href="https://github.com/pi0/nuxt-on-the-edge"
+        href="https://github.com/danielroe/nuxt-vercel-isr"
         class="source"
       >
         <LogoGithub />
