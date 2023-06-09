@@ -1,11 +1,14 @@
 <script setup lang="ts">
+// @ts-ignore
+import ms from 'ms'
+
 const { data: info } = await useFetch('/api/info')
 
 const generatedAt = useState(() => new Date().toISOString())
 const date = new Date(generatedAt.value)
-const ms = ref()
+const timeAgo = ref()
 onMounted(() => {
-  ms.value = new Intl.NumberFormat().format(Date.now() - date.valueOf())
+  timeAgo.value = ms(Date.now() - date.valueOf(), { long: true })
 })
 </script>
 
@@ -53,7 +56,8 @@ onMounted(() => {
             <div class="contents">
               <span>Generated</span>
               <span>
-                <strong>{{ ms || '&nbsp;' }}</strong>ms ago
+                <strong v-if="timeAgo">{{ timeAgo }} ago</strong>
+                <strong v-else>...</strong>
               </span>
             </div>
           </div>
@@ -175,7 +179,6 @@ main .block:nth-child(1) {
 main .block span {
   display: block;
   margin: 0 0 0.2em 0;
-  text-transform: uppercase;
   font-size: 0.6em;
 }
 
