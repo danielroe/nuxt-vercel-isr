@@ -1,5 +1,4 @@
 <script setup lang="ts">
-// @ts-ignore
 import ms from 'ms'
 
 const { data: info } = await useFetch('/api/info')
