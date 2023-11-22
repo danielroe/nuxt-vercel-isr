@@ -12,6 +12,6 @@
     "vue-router": "^4.2.5"
   },
   "devDependencies": {
-    "@types/ms": "^0.7.34"
+    "@types/ms": "0.7.34"
   }
 }
