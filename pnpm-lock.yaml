@@ -19,7 +19,7 @@ dependencies:
     version: 3.4.20
   vue-router:
     specifier: ^4.2.5
-    version: 4.2.5(vue@3.4.20)
+    version: 4.3.0(vue@3.4.20)
 
 devDependencies:
   '@types/ms':
@@ -2228,10 +2228,6 @@ packages:
     dependencies:
       '@vue/compiler-dom': 3.4.20
       '@vue/shared': 3.4.20
-    dev: false
-
-  /@vue/devtools-api@6.5.1:
-    resolution: {integrity: sha512-+KpckaAQyfbvshdDW5xQylLni1asvNSGme1JFs8I1+/H5pHEhqUKMEQD/qn3Nx5+/nycBq11qAEi8lk+LXI2dA==}
     dev: false
 
   /@vue/devtools-api@6.6.1:
@@ -6487,15 +6483,6 @@ packages:
 
   /vue-devtools-stub@0.1.0:
     resolution: {integrity: sha512-RutnB7X8c5hjq39NceArgXg28WZtZpGc3+J16ljMiYnFhKvd8hITxSWQSQ5bvldxMDU6gG5mkxl1MTQLXckVSQ==}
-    dev: false
-
-  /vue-router@4.2.5(vue@3.4.20):
-    resolution: {integrity: sha512-DIUpKcyg4+PTQKfFPX88UWhlagBEBEfJ5A8XDXRJLUnZOvcpMF8o/dnL90vpVkGaPbjvXazV/rC1qBKrZlFugw==}
-    peerDependencies:
-      vue: ^3.2.0
-    dependencies:
-      '@vue/devtools-api': 6.5.1
-      vue: 3.4.20
     dev: false
 
   /vue-router@4.3.0(vue@3.4.20):
