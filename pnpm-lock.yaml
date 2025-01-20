@@ -23,8 +23,8 @@ dependencies:
 
 devDependencies:
   '@types/ms':
-    specifier: 0.7.34
-    version: 0.7.34
+    specifier: 2.1.0
+    version: 2.1.0
 
 packages:
 
@@ -1621,8 +1621,8 @@ packages:
       '@types/node': 22.9.0
     dev: false
 
-  /@types/ms@0.7.34:
-    resolution: {integrity: sha512-nG96G3Wp6acyAgJqGasjODb+acrI7KltPiRxzHPXnP3NgI28bpQDRv53olbqGXbfcgF5aiiHmO3xpwEpS5Ld9g==}
+  /@types/ms@2.1.0:
+    resolution: {integrity: sha512-GsCCIZDE/p3i96vtEqx+7dBUGXrc7zeSK3wwPHIaRThS+9OhWIXRqzs4d6k1SVU8g91DrNRWxWUGhp5KXQb2VA==}
     dev: true
 
   /@types/node@22.9.0:
